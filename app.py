@@ -162,6 +162,3 @@ def oauth_guest():
     
     with app.test_request_context('/api/majorlogin_jwt', query_string=params):
          return majorlogin_jwt()
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=1080, debug=False)
