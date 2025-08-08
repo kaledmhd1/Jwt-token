@@ -1,6 +1,4 @@
-Flask
-pycryptodome
 requests
+pycryptodome
 protobuf
 PyJWT
-gunicorn
