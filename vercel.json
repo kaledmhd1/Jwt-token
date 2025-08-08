@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/majorlogin_jwt.py", "use": "@vercel/python" },
+    { "src": "api/oauth_guest.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/majorlogin_jwt", "dest": "api/majorlogin_jwt.py" },
+    { "src": "/api/oauth_guest", "dest": "api/oauth_guest.py" }
+  ]
+}
