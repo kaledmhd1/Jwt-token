@@ -1,4 +1,5 @@
-requests
+Flask
 pycryptodome
-protobuf
+requests
 PyJWT
+protobuf
